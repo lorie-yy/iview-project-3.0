@@ -1,0 +1,177 @@
+.app-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+}
+.app-wrapper .ivu-form .ivu-form-item-label {
+  font-size: 14px;
+}
+.app-wrapper .main-wrapper {
+  padding-left: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #f8fafc;
+}
+.app-wrapper.hideSidebar .side-wrapper {
+  transform: translate(-150px, 0);
+  overflow: hidden;
+}
+.app-wrapper.hideSidebar .side-wrapper .navbar {
+  transform: translate(150px, 0);
+  overflow: hidden;
+}
+.app-wrapper.hideSidebar .side-wrapper .logo-box {
+  transform: translate(150px, 0);
+}
+.app-wrapper.hideSidebar .side-wrapper:hover {
+  transform: translate(0px, 0);
+}
+.app-wrapper.hideSidebar .side-wrapper:hover .navbar {
+  transform: translate(0px, 0);
+}
+.app-wrapper.hideSidebar .side-wrapper:hover .logo-box {
+  transform: translate(0, 0);
+}
+.app-wrapper.hideSidebar .main-wrapper {
+  padding-left: 50px;
+}
+.app-wrapper.hoverSideBar .side-wrapper {
+  transform: translate(-150px, 0);
+}
+.app-wrapper.hoverSideBar .side-wrapper .navbar {
+  transform: translate(150px, 0);
+}
+.app-wrapper.hoverSideBar .side-wrapper .logo-box {
+  transform: translate(150px, 0);
+}
+.app-wrapper.hoverSideBar .side-wrapper.hover {
+  transform: translate(0px, 0);
+}
+.app-wrapper.hoverSideBar .side-wrapper.hover .navbar {
+  transform: translate(0px, 0);
+}
+.app-wrapper.hoverSideBar .side-wrapper.hover .logo-box {
+  transform: translate(0, 0);
+}
+.app-wrapper.hoverSideBar .main-wrapper {
+  padding-left: 50px;
+}
+.header {
+  background: #fff;
+  height: 50px;
+  width: 100%;
+  color: #666;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  position: relative;
+}
+.header .userBox {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  margin-right: 30px;
+  float: right;
+}
+.header .nav-icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  float: left;
+}
+.header .nav-icon:hover {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.header .ivu-breadcrumb {
+  float: left;
+  line-height: 50px;
+}
+.side-wrapper {
+  transition: all 0.28s ease-out;
+  position: absolute;
+  width: 200px;
+  padding-top: 80px;
+  background: #404040;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  overflow: hidden;
+  background: transparent url('../images/IL-logo.png') no-repeat;
+  background-size: 100% auto;
+}
+.side-wrapper.light {
+  background-color: #fff;
+}
+.side-wrapper.light .theme-switch {
+  background-color: #f8f8f8;
+}
+.side-wrapper .navbar {
+  transition: all 0.28s ease-out;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: -17px;
+}
+.side-wrapper .logo-box {
+  transition: all 0.28s ease-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+.side-wrapper .theme-switch {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: #010101;
+  line-height: 40px;
+  text-align: center;
+  z-index: 901;
+}
+.main-container {
+  height: 100%;
+  background: #ececec;
+}
+.container {
+  height: 100%;
+  overflow: scroll;
+  text-align: left;
+}
+#sticker {
+  height: auto;
+  padding: 8px 8px 40px 8px;
+  min-height: 100%;
+}
+#stickerCon {
+  padding-bottom: 40px;
+  box-sizing: inherit;
+}
+#footer {
+  margin-top: -75px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  color: #ABA498;
+  font-size: 12px;
+  background: #fafafa;
+  border-top: 1px solid #E7E7E7;
+  position: relative;
+  z-index: 9;
+}
